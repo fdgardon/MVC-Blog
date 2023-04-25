@@ -123,7 +123,7 @@
 //   //   logInContent.style.display = "block"
 //   // })
 
-  const loginBtn = document.querySelector("#logIn");
+const loginBtn = document.querySelector(".login-display");
 const signupBtn = document.querySelector(".signup-display");
 const logInContent = document.querySelector("#login-form")
 const signUpContent = document.querySelector("#signup-form")

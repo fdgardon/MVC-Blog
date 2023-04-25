@@ -14,8 +14,6 @@
             </div>
         </form>
     </div>
-
-    
     <div class="col-md-6">
         <form class="form signup-form" id="signup-form" style="display: none">
             <h2>Signup</h2>
@@ -26,6 +24,10 @@
                 <input class="form-input" type="text" id="email-signup" placeholder="Your Email" />
                 <label for="password-signup"></label>
                 <input class="form-input" type="password" id="password-signup" placeholder="Your Password" />
+
+                <div>
+                    <p class="paragraph">If you are registered click ! <button class="login-display">Login</button></p>
+                </div>
 
                 <div class="form">
                     <button id="signupBtn" class="btn btn-primary" type="submit">Signup</button>
@@ -117,5 +119,17 @@
     }
     #hidden {
         display: 
+    }
+
+    .signup-display{
+        background-color: #1c8adb;
+    }
+
+    .pragraph{
+        font-style: italic;
+        padding-bottom: 0;
+    }
+    .login-display{
+        background-color: #1c8adb;
     }
 </style>
