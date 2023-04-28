@@ -9,7 +9,7 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: rgb(194, 21, 21);
+  color: rgb(21, 145, 194);
 }
 
 a {
@@ -87,20 +87,19 @@ form label {
 .wrapper {
   width: 100%;
   min-height: 100%;
- 
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  background-color: lightslategray;
+  background-color: rgb(6, 109, 107);
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1%;
-  font-size: 1.5rem;
+  padding: 0 5%;
+  font-size: 1.2rem;
 }
 
 header h1 {
