@@ -12,6 +12,7 @@
   <div class="wrapper">
     <header>
       <div>
+        <h2>Welcome <span> {{ name }} </span></h2>
         <nav>
           <a href="/">Home</a>
           <a href="/dashboard">Dashboard</a>
@@ -32,6 +33,10 @@
   </div>
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
+  {{/if}}
+
+  {{#if signout}}
+  <script src="/javascript/login.js"></script>
   {{/if}}
 </body>
 
