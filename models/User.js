@@ -28,7 +28,11 @@ User.init(
       validate: {
         len: [5]
       }
-    }
+    },
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   {
     hooks: {

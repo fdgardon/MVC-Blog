@@ -30,7 +30,8 @@ router.get('/', (req, res) => {
       // pass a single post object into the homepage template
       res.render('homepage', { 
         posts,
-        loggedIn: req.session.loggedIn 
+        loggedIn: req.session.loggedIn,
+        name: req.session.name
       });
     })
     .catch(err => {
